@@ -1,0 +1,1805 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C9F04495-3385-375C-AAD1-4D2B3A552DB7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>all_snippets</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets;C:\Development\op3d_active\eigen-3.3.7\doc\snippets;C:\Development\op3d_active\eigen-3.3.7;C:\Development\op3d_active\eigen-3.3.7\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets;C:\Development\op3d_active\eigen-3.3.7\doc\snippets;C:\Development\op3d_active\eigen-3.3.7;C:\Development\op3d_active\eigen-3.3.7\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets;C:\Development\op3d_active\eigen-3.3.7\doc\snippets;C:\Development\op3d_active\eigen-3.3.7;C:\Development\op3d_active\eigen-3.3.7\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets;C:\Development\op3d_active\eigen-3.3.7\doc\snippets;C:\Development\op3d_active\eigen-3.3.7;C:\Development\op3d_active\eigen-3.3.7\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\op3d_active\eigen-3.3.7\doc\snippets\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/op3d_active/eigen-3.3.7/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/eigen-3.3.7 -BC:/Development/op3d_active/eigen-3.3.7/msvc --check-stamp-file C:/Development/op3d_active/eigen-3.3.7/msvc/doc/snippets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/op3d_active/eigen-3.3.7/doc/snippets/CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\compile_snippet.cpp.in;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/op3d_active/eigen-3.3.7/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/eigen-3.3.7 -BC:/Development/op3d_active/eigen-3.3.7/msvc --check-stamp-file C:/Development/op3d_active/eigen-3.3.7/msvc/doc/snippets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/op3d_active/eigen-3.3.7/doc/snippets/CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\compile_snippet.cpp.in;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/op3d_active/eigen-3.3.7/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/eigen-3.3.7 -BC:/Development/op3d_active/eigen-3.3.7/msvc --check-stamp-file C:/Development/op3d_active/eigen-3.3.7/msvc/doc/snippets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/op3d_active/eigen-3.3.7/doc/snippets/CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\compile_snippet.cpp.in;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/op3d_active/eigen-3.3.7/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/eigen-3.3.7 -BC:/Development/op3d_active/eigen-3.3.7/msvc --check-stamp-file C:/Development/op3d_active/eigen-3.3.7/msvc/doc/snippets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/op3d_active/eigen-3.3.7/doc/snippets/CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\compile_snippet.cpp.in;C:\Development\op3d_active\eigen-3.3.7\doc\snippets\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\ZERO_CHECK.vcxproj">
+      <Project>{84938EA4-3E30-31B7-83CB-4991992BCFD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_AngleAxis_mimic_euler.vcxproj">
+      <Project>{841B5BA7-EC50-3FA7-924C-41A14B83EED8}</Project>
+      <Name>compile_AngleAxis_mimic_euler</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_BiCGSTAB_simple.vcxproj">
+      <Project>{03FC04EE-D5C7-399C-B8FD-2CCB05DD5AF3}</Project>
+      <Name>compile_BiCGSTAB_simple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_BiCGSTAB_step_by_step.vcxproj">
+      <Project>{B6F8CB06-202B-3A4A-8774-04A945B8C315}</Project>
+      <Name>compile_BiCGSTAB_step_by_step</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_ColPivHouseholderQR_solve.vcxproj">
+      <Project>{D1F012FA-7B58-349B-9F2D-B8524F684C8D}</Project>
+      <Name>compile_ColPivHouseholderQR_solve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_ComplexEigenSolver_compute.vcxproj">
+      <Project>{00912AB5-0D9A-3A81-87E6-592330E06B7D}</Project>
+      <Name>compile_ComplexEigenSolver_compute</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_ComplexEigenSolver_eigenvalues.vcxproj">
+      <Project>{A2AFD8C4-EAA0-360E-A7F5-13EEF3AAEABB}</Project>
+      <Name>compile_ComplexEigenSolver_eigenvalues</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_ComplexEigenSolver_eigenvectors.vcxproj">
+      <Project>{3D36FA77-2E13-314A-A807-8AEFB2B89235}</Project>
+      <Name>compile_ComplexEigenSolver_eigenvectors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_ComplexSchur_compute.vcxproj">
+      <Project>{AD7D9E95-AD4E-3B5F-9589-DC04EF822989}</Project>
+      <Name>compile_ComplexSchur_compute</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_ComplexSchur_matrixT.vcxproj">
+      <Project>{6ED5835E-FE49-34EA-A148-0D8E932A97EF}</Project>
+      <Name>compile_ComplexSchur_matrixT</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_ComplexSchur_matrixU.vcxproj">
+      <Project>{968B371E-469E-3A36-8C11-E5AA3D5863D3}</Project>
+      <Name>compile_ComplexSchur_matrixU</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_abs.vcxproj">
+      <Project>{2CD10FB0-3926-3BDA-90B4-B74BAFC14CA3}</Project>
+      <Name>compile_Cwise_abs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_abs2.vcxproj">
+      <Project>{1CC926C1-46FC-3396-A0BF-25854A97C50B}</Project>
+      <Name>compile_Cwise_abs2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_acos.vcxproj">
+      <Project>{A53F7904-453C-31CE-A874-F13DC83FC801}</Project>
+      <Name>compile_Cwise_acos</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_arg.vcxproj">
+      <Project>{F5BC5AB3-B73D-352D-AF11-0F89DA5AD167}</Project>
+      <Name>compile_Cwise_arg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_array_power_array.vcxproj">
+      <Project>{8FD5FBE5-6AF5-3BD0-B97B-F5D58FF7C629}</Project>
+      <Name>compile_Cwise_array_power_array</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_asin.vcxproj">
+      <Project>{C5E2F95B-80A3-32A5-9677-7A46E1307C17}</Project>
+      <Name>compile_Cwise_asin</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_atan.vcxproj">
+      <Project>{AD6B29CC-E1B6-39E2-9480-D2639AC7D542}</Project>
+      <Name>compile_Cwise_atan</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_boolean_and.vcxproj">
+      <Project>{99AF16AD-5916-3DF2-9D10-4239C0799A95}</Project>
+      <Name>compile_Cwise_boolean_and</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_boolean_not.vcxproj">
+      <Project>{0B407086-E0A7-3A15-84FB-7FAD03847FAA}</Project>
+      <Name>compile_Cwise_boolean_not</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_boolean_or.vcxproj">
+      <Project>{7E675636-40D3-32D6-98B9-0987ACB1599B}</Project>
+      <Name>compile_Cwise_boolean_or</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_boolean_xor.vcxproj">
+      <Project>{EC60659C-8977-362B-AB96-D97AED9F6C43}</Project>
+      <Name>compile_Cwise_boolean_xor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_ceil.vcxproj">
+      <Project>{A1BDAF62-38C0-33D5-B57A-9FA6A4658EF9}</Project>
+      <Name>compile_Cwise_ceil</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_cos.vcxproj">
+      <Project>{B70FF811-4656-3AF2-9EAD-D81F721C8036}</Project>
+      <Name>compile_Cwise_cos</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_cosh.vcxproj">
+      <Project>{5CE0D994-DCC2-33DC-9E89-DF41A325E96D}</Project>
+      <Name>compile_Cwise_cosh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_cube.vcxproj">
+      <Project>{8B793069-4992-315A-B768-F848DA8A1534}</Project>
+      <Name>compile_Cwise_cube</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_equal_equal.vcxproj">
+      <Project>{0535FDB4-8856-3AEC-8C33-DF97D4566A27}</Project>
+      <Name>compile_Cwise_equal_equal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_exp.vcxproj">
+      <Project>{F0EFDBD3-ED1B-35CC-9AFF-793D1F06D977}</Project>
+      <Name>compile_Cwise_exp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_floor.vcxproj">
+      <Project>{5B8E1E80-D10D-331E-B1C4-F66C098B3C7D}</Project>
+      <Name>compile_Cwise_floor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_greater.vcxproj">
+      <Project>{306A4D09-3D1F-37CE-8DBD-47AE10C851FE}</Project>
+      <Name>compile_Cwise_greater</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_greater_equal.vcxproj">
+      <Project>{0A6C0E7C-FDD3-376C-A06D-3106A219C675}</Project>
+      <Name>compile_Cwise_greater_equal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_inverse.vcxproj">
+      <Project>{1424F26B-E459-33E9-ADB9-EB8219037304}</Project>
+      <Name>compile_Cwise_inverse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_isFinite.vcxproj">
+      <Project>{32C839F1-C885-3141-BD3C-63FF920BB411}</Project>
+      <Name>compile_Cwise_isFinite</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_isInf.vcxproj">
+      <Project>{5A5D65B9-9CB9-3311-B17A-39B05D394B5B}</Project>
+      <Name>compile_Cwise_isInf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_isNaN.vcxproj">
+      <Project>{CDCD4D3C-3705-3E3F-B628-3C7D063888C5}</Project>
+      <Name>compile_Cwise_isNaN</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_less.vcxproj">
+      <Project>{2A0CAABC-B104-3182-905C-CC9062CA7E81}</Project>
+      <Name>compile_Cwise_less</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_less_equal.vcxproj">
+      <Project>{45BCF279-A990-3F30-A0D1-29410BCC1341}</Project>
+      <Name>compile_Cwise_less_equal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_log.vcxproj">
+      <Project>{73EC7361-AB9A-3D76-976C-190F0BCDAB64}</Project>
+      <Name>compile_Cwise_log</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_log10.vcxproj">
+      <Project>{B9255724-8E70-3304-9D92-B8EDDAEB1B32}</Project>
+      <Name>compile_Cwise_log10</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_max.vcxproj">
+      <Project>{4DBFDB72-9B3B-3DA9-AE5B-40C049938636}</Project>
+      <Name>compile_Cwise_max</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_min.vcxproj">
+      <Project>{2135FC3A-B457-3A62-A723-4504D03AD887}</Project>
+      <Name>compile_Cwise_min</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_minus.vcxproj">
+      <Project>{62D433C0-03AD-35EB-8443-B539E74680D2}</Project>
+      <Name>compile_Cwise_minus</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_minus_equal.vcxproj">
+      <Project>{0F43CC97-B4A7-31AC-B4C1-17925A30D3BE}</Project>
+      <Name>compile_Cwise_minus_equal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_not_equal.vcxproj">
+      <Project>{EE067F5B-9C75-3868-8672-BDFE2FC69026}</Project>
+      <Name>compile_Cwise_not_equal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_plus.vcxproj">
+      <Project>{BBEE5329-E535-3EA8-92E9-E014F616F7ED}</Project>
+      <Name>compile_Cwise_plus</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_plus_equal.vcxproj">
+      <Project>{54822409-AA80-3ACE-8489-47098370D7BC}</Project>
+      <Name>compile_Cwise_plus_equal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_pow.vcxproj">
+      <Project>{7B2CE11D-8DB9-328F-BA89-AB2C2088761D}</Project>
+      <Name>compile_Cwise_pow</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_product.vcxproj">
+      <Project>{A20D77A3-1785-3530-89B6-6B603160F5BC}</Project>
+      <Name>compile_Cwise_product</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_quotient.vcxproj">
+      <Project>{4E3B2C9C-6B80-3308-9F02-3AA110D3FE5E}</Project>
+      <Name>compile_Cwise_quotient</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_round.vcxproj">
+      <Project>{1D4BD55E-85FA-3EB9-80FB-7DE2F9066A3C}</Project>
+      <Name>compile_Cwise_round</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_scalar_power_array.vcxproj">
+      <Project>{7BABD5D6-B3E7-3A29-83A6-5CFFB029C177}</Project>
+      <Name>compile_Cwise_scalar_power_array</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_sign.vcxproj">
+      <Project>{3F96BEBB-91B9-3DC9-9D5B-0AEF85970A3B}</Project>
+      <Name>compile_Cwise_sign</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_sin.vcxproj">
+      <Project>{261E1CFB-1B85-3C9E-A445-107EBF3A5F03}</Project>
+      <Name>compile_Cwise_sin</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_sinh.vcxproj">
+      <Project>{606BD955-3BE5-3FEA-88F5-019B3C760D2B}</Project>
+      <Name>compile_Cwise_sinh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_slash_equal.vcxproj">
+      <Project>{9825EB3B-65C5-31DB-B1F5-89EF010BC25C}</Project>
+      <Name>compile_Cwise_slash_equal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_sqrt.vcxproj">
+      <Project>{927206A0-6D06-3AE7-AA18-B523AD618A1B}</Project>
+      <Name>compile_Cwise_sqrt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_square.vcxproj">
+      <Project>{66F05832-D93B-37A6-A6D5-CD80C4F5FEC7}</Project>
+      <Name>compile_Cwise_square</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_tan.vcxproj">
+      <Project>{7CD773A9-6801-364E-8983-AE4F26AEF651}</Project>
+      <Name>compile_Cwise_tan</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_tanh.vcxproj">
+      <Project>{5994CE45-AB87-3742-B163-1048631D61DC}</Project>
+      <Name>compile_Cwise_tanh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Cwise_times_equal.vcxproj">
+      <Project>{E51CA8C7-A781-35A3-98A1-976EC2C447E0}</Project>
+      <Name>compile_Cwise_times_equal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_DenseBase_LinSpaced.vcxproj">
+      <Project>{D57555D7-8763-3787-BDC6-08A94A04358E}</Project>
+      <Name>compile_DenseBase_LinSpaced</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_DenseBase_LinSpacedInt.vcxproj">
+      <Project>{18413B8F-E926-3A90-A749-AC7463C85E1B}</Project>
+      <Name>compile_DenseBase_LinSpacedInt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_DenseBase_LinSpaced_seq.vcxproj">
+      <Project>{022D5690-C7A5-3C8B-99F2-2B1FEB305D5F}</Project>
+      <Name>compile_DenseBase_LinSpaced_seq</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_DenseBase_setLinSpaced.vcxproj">
+      <Project>{CEE9B619-03BF-3CB5-AAAD-6AEE3D7910C1}</Project>
+      <Name>compile_DenseBase_setLinSpaced</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_DirectionWise_hnormalized.vcxproj">
+      <Project>{6EED6FAB-2572-3BB3-86DE-562D5418CC04}</Project>
+      <Name>compile_DirectionWise_hnormalized</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_DirectionWise_replicate.vcxproj">
+      <Project>{DE59301C-BAB0-3390-9046-DB1A2EE6C24D}</Project>
+      <Name>compile_DirectionWise_replicate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_DirectionWise_replicate_int.vcxproj">
+      <Project>{BC51977C-66A4-318A-94D8-A8C2DAF6620B}</Project>
+      <Name>compile_DirectionWise_replicate_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_EigenSolver_EigenSolver_MatrixType.vcxproj">
+      <Project>{B6BFE315-7EF0-33D8-8219-663FF07D2695}</Project>
+      <Name>compile_EigenSolver_EigenSolver_MatrixType</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_EigenSolver_compute.vcxproj">
+      <Project>{88D9F0B2-094D-3399-8C55-172FD222D54F}</Project>
+      <Name>compile_EigenSolver_compute</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_EigenSolver_eigenvalues.vcxproj">
+      <Project>{E7D5C0A8-ADD4-351A-AE64-50DBC7EDECA1}</Project>
+      <Name>compile_EigenSolver_eigenvalues</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_EigenSolver_eigenvectors.vcxproj">
+      <Project>{92630DEF-1B91-3305-8B31-A675B64060F6}</Project>
+      <Name>compile_EigenSolver_eigenvectors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_EigenSolver_pseudoEigenvectors.vcxproj">
+      <Project>{B50044EB-2F2D-3FF1-A97F-85140139A7A1}</Project>
+      <Name>compile_EigenSolver_pseudoEigenvectors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_FullPivHouseholderQR_solve.vcxproj">
+      <Project>{9EE0F833-7827-35C4-AA9E-A2BAE63F762D}</Project>
+      <Name>compile_FullPivHouseholderQR_solve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_FullPivLU_image.vcxproj">
+      <Project>{50C100F6-0C19-350E-90FB-7ABCC9C0BDF9}</Project>
+      <Name>compile_FullPivLU_image</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_FullPivLU_kernel.vcxproj">
+      <Project>{DC1F86A0-99C9-34DB-88D1-BF6C19DDB6F0}</Project>
+      <Name>compile_FullPivLU_kernel</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_FullPivLU_solve.vcxproj">
+      <Project>{BE4C48C4-0074-36E6-899E-61F20C7FD8E1}</Project>
+      <Name>compile_FullPivLU_solve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_GeneralizedEigenSolver.vcxproj">
+      <Project>{D171A097-DF9B-3A33-9322-E9C3772945AD}</Project>
+      <Name>compile_GeneralizedEigenSolver</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_HessenbergDecomposition_compute.vcxproj">
+      <Project>{B9D511F6-BBD1-348C-BC03-FDD24C2F6A01}</Project>
+      <Name>compile_HessenbergDecomposition_compute</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_HessenbergDecomposition_matrixH.vcxproj">
+      <Project>{36F494BE-820B-30F1-A944-317BB2F91A63}</Project>
+      <Name>compile_HessenbergDecomposition_matrixH</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_HessenbergDecomposition_packedMatrix.vcxproj">
+      <Project>{BB28AA3A-C1C8-3D6C-988C-081A47928E51}</Project>
+      <Name>compile_HessenbergDecomposition_packedMatrix</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_HouseholderQR_householderQ.vcxproj">
+      <Project>{7EFA2866-AF50-3DE0-B5B8-219E486A406B}</Project>
+      <Name>compile_HouseholderQR_householderQ</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_HouseholderQR_solve.vcxproj">
+      <Project>{8374E1E4-0991-3A70-944F-7B0764C264E5}</Project>
+      <Name>compile_HouseholderQR_solve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_HouseholderSequence_HouseholderSequence.vcxproj">
+      <Project>{C06C3FA6-94F7-3834-9AC1-EE7696E706ED}</Project>
+      <Name>compile_HouseholderSequence_HouseholderSequence</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_IOFormat.vcxproj">
+      <Project>{45ED1E53-D2CA-357D-B5E7-95B918601EA2}</Project>
+      <Name>compile_IOFormat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_JacobiSVD_basic.vcxproj">
+      <Project>{D548967E-613B-3B22-AD45-7D36E4F5661E}</Project>
+      <Name>compile_JacobiSVD_basic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Jacobi_makeGivens.vcxproj">
+      <Project>{4074649E-DFA8-3BB6-B90B-15ADE0229F8B}</Project>
+      <Name>compile_Jacobi_makeGivens</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Jacobi_makeJacobi.vcxproj">
+      <Project>{C8F94858-2B77-3EA5-B24B-F1D76E41F6CC}</Project>
+      <Name>compile_Jacobi_makeJacobi</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_LLT_example.vcxproj">
+      <Project>{178FCEA8-8766-37E6-9E18-5D7C469178A6}</Project>
+      <Name>compile_LLT_example</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_LLT_solve.vcxproj">
+      <Project>{8BE68CC1-ED90-3A20-996D-CC567027A19A}</Project>
+      <Name>compile_LLT_solve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_LeastSquaresNormalEquations.vcxproj">
+      <Project>{CD9B42B3-A7C1-35DD-8CB1-5264892425EA}</Project>
+      <Name>compile_LeastSquaresNormalEquations</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_LeastSquaresQR.vcxproj">
+      <Project>{7C2A185D-03D7-3F12-9AF2-E165725F4D31}</Project>
+      <Name>compile_LeastSquaresQR</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Map_general_stride.vcxproj">
+      <Project>{2F2B21A4-B6C9-345C-AB70-5ABB0EB5F1C8}</Project>
+      <Name>compile_Map_general_stride</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Map_inner_stride.vcxproj">
+      <Project>{38BC226B-DA7D-3260-8713-13AC03242ECC}</Project>
+      <Name>compile_Map_inner_stride</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Map_outer_stride.vcxproj">
+      <Project>{192AC850-D2F7-3A9B-B79F-E3ADDC6A6A16}</Project>
+      <Name>compile_Map_outer_stride</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Map_placement_new.vcxproj">
+      <Project>{F1D1EF14-8597-3D1F-8CEE-06B0C9BEAC69}</Project>
+      <Name>compile_Map_placement_new</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Map_simple.vcxproj">
+      <Project>{29122660-1DBC-320A-A866-4B5A9A8CEE8A}</Project>
+      <Name>compile_Map_simple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_adjoint.vcxproj">
+      <Project>{6EF4CC72-C76A-30D4-91AB-1B91F3B1ECCF}</Project>
+      <Name>compile_MatrixBase_adjoint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_all.vcxproj">
+      <Project>{7BD3DC50-11CC-37D7-8E51-53120CC1D45A}</Project>
+      <Name>compile_MatrixBase_all</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_applyOnTheLeft.vcxproj">
+      <Project>{9629DD77-9D1A-321F-A39C-E8D85BECB458}</Project>
+      <Name>compile_MatrixBase_applyOnTheLeft</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_applyOnTheRight.vcxproj">
+      <Project>{9FC01412-2C4A-39D3-A057-223B823CBEFE}</Project>
+      <Name>compile_MatrixBase_applyOnTheRight</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_array.vcxproj">
+      <Project>{892B0A4C-FCB7-3771-8DFC-9D4B8E264FF4}</Project>
+      <Name>compile_MatrixBase_array</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_array_const.vcxproj">
+      <Project>{DC374E6F-E9B1-35AE-8D83-66BE68F8352D}</Project>
+      <Name>compile_MatrixBase_array_const</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_asDiagonal.vcxproj">
+      <Project>{D977049B-059A-30B2-B3D2-F6DF4DE3B5EF}</Project>
+      <Name>compile_MatrixBase_asDiagonal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_block_int_int.vcxproj">
+      <Project>{8375F98F-4E16-3325-BB8C-1D884B1D97BE}</Project>
+      <Name>compile_MatrixBase_block_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_block_int_int_int_int.vcxproj">
+      <Project>{8F9AA3D9-0B81-38C9-9C7E-26D214829099}</Project>
+      <Name>compile_MatrixBase_block_int_int_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_bottomLeftCorner_int_int.vcxproj">
+      <Project>{CC89B9D3-8934-3C64-8A72-439E0F547309}</Project>
+      <Name>compile_MatrixBase_bottomLeftCorner_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_bottomRightCorner_int_int.vcxproj">
+      <Project>{3C756C87-1ADA-3AFA-9007-B3D5D48B729D}</Project>
+      <Name>compile_MatrixBase_bottomRightCorner_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_bottomRows_int.vcxproj">
+      <Project>{CA8FDE2C-5796-3566-A772-8A8CAE3025F3}</Project>
+      <Name>compile_MatrixBase_bottomRows_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cast.vcxproj">
+      <Project>{F50B74EE-FFC1-392F-AA5F-EDFE52452305}</Project>
+      <Name>compile_MatrixBase_cast</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_col.vcxproj">
+      <Project>{F4612EF2-7F3E-3326-8217-916F53176B59}</Project>
+      <Name>compile_MatrixBase_col</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_colwise.vcxproj">
+      <Project>{21895049-BBB3-333B-9122-4D23D343A737}</Project>
+      <Name>compile_MatrixBase_colwise</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_computeInverseAndDetWithCheck.vcxproj">
+      <Project>{AB6E1644-1DC0-37A6-AD4E-BDDBF0FDB4B3}</Project>
+      <Name>compile_MatrixBase_computeInverseAndDetWithCheck</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_computeInverseWithCheck.vcxproj">
+      <Project>{C92D9E8D-5531-326F-B9D1-DF48E8697650}</Project>
+      <Name>compile_MatrixBase_computeInverseWithCheck</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cwiseAbs.vcxproj">
+      <Project>{B17D95A9-03F0-360B-8DC3-3A2202622AC3}</Project>
+      <Name>compile_MatrixBase_cwiseAbs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cwiseAbs2.vcxproj">
+      <Project>{E589AC40-D045-394A-96F3-7666CA3BA131}</Project>
+      <Name>compile_MatrixBase_cwiseAbs2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cwiseEqual.vcxproj">
+      <Project>{4321F3D6-1151-3231-A9E8-C1F617961559}</Project>
+      <Name>compile_MatrixBase_cwiseEqual</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cwiseInverse.vcxproj">
+      <Project>{1CF41ED0-86B8-3689-A45A-EACEF7A77444}</Project>
+      <Name>compile_MatrixBase_cwiseInverse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cwiseMax.vcxproj">
+      <Project>{B130CDFD-E230-30F5-9E47-30EBA17FC63A}</Project>
+      <Name>compile_MatrixBase_cwiseMax</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cwiseMin.vcxproj">
+      <Project>{7623DAB7-ACBA-3023-A173-607A43192AD9}</Project>
+      <Name>compile_MatrixBase_cwiseMin</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cwiseNotEqual.vcxproj">
+      <Project>{2D9E97D8-AF6D-3F35-9964-F75E0DBD4869}</Project>
+      <Name>compile_MatrixBase_cwiseNotEqual</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cwiseProduct.vcxproj">
+      <Project>{91B6068C-0CC1-3A68-9132-1E6626CBCF89}</Project>
+      <Name>compile_MatrixBase_cwiseProduct</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cwiseQuotient.vcxproj">
+      <Project>{847707FD-CC83-3118-8815-4368BA4C8F12}</Project>
+      <Name>compile_MatrixBase_cwiseQuotient</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cwiseSign.vcxproj">
+      <Project>{A5508FA4-1ACB-32F3-AA6B-370504BAA769}</Project>
+      <Name>compile_MatrixBase_cwiseSign</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_cwiseSqrt.vcxproj">
+      <Project>{1DE2B0BE-0959-362F-BDDF-0CA915515358}</Project>
+      <Name>compile_MatrixBase_cwiseSqrt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_diagonal.vcxproj">
+      <Project>{B8B87A56-CD46-3DA4-97E6-C5DF8A549E8D}</Project>
+      <Name>compile_MatrixBase_diagonal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_diagonal_int.vcxproj">
+      <Project>{1BA440EE-C532-350B-8FE4-8E087A446785}</Project>
+      <Name>compile_MatrixBase_diagonal_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_diagonal_template_int.vcxproj">
+      <Project>{B21F30EE-0DE9-397C-96D3-56F1800BFF55}</Project>
+      <Name>compile_MatrixBase_diagonal_template_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_eigenvalues.vcxproj">
+      <Project>{E16E2899-358C-3C94-9418-A21EF12CC98A}</Project>
+      <Name>compile_MatrixBase_eigenvalues</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_end_int.vcxproj">
+      <Project>{84A28163-F003-35FA-A869-C74184CDD3DB}</Project>
+      <Name>compile_MatrixBase_end_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_eval.vcxproj">
+      <Project>{E041B984-BEF0-3D87-8108-FE3F570105DF}</Project>
+      <Name>compile_MatrixBase_eval</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_fixedBlock_int_int.vcxproj">
+      <Project>{6FD499B0-6A16-3F62-8641-0C002A6C7418}</Project>
+      <Name>compile_MatrixBase_fixedBlock_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_hnormalized.vcxproj">
+      <Project>{7355069A-1BAE-37CF-801C-6EA6099D2DC0}</Project>
+      <Name>compile_MatrixBase_hnormalized</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_homogeneous.vcxproj">
+      <Project>{BE080966-8EEC-3D67-AAAB-5D909B4D7708}</Project>
+      <Name>compile_MatrixBase_homogeneous</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_identity.vcxproj">
+      <Project>{97418BE9-E6E3-30FB-A866-2E355ACDAA0C}</Project>
+      <Name>compile_MatrixBase_identity</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_identity_int_int.vcxproj">
+      <Project>{73FF196D-D6EA-3509-A76B-204D3C68C9A5}</Project>
+      <Name>compile_MatrixBase_identity_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_inverse.vcxproj">
+      <Project>{4CD77C21-1EE7-31E8-A897-2C6544B8725B}</Project>
+      <Name>compile_MatrixBase_inverse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_isDiagonal.vcxproj">
+      <Project>{90DA7982-04DF-3257-9569-129EF3A4B92D}</Project>
+      <Name>compile_MatrixBase_isDiagonal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_isIdentity.vcxproj">
+      <Project>{BB8508C0-BB19-30A6-B78B-968E92368525}</Project>
+      <Name>compile_MatrixBase_isIdentity</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_isOnes.vcxproj">
+      <Project>{5D409F67-490A-3373-9678-3914CD488CCA}</Project>
+      <Name>compile_MatrixBase_isOnes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_isOrthogonal.vcxproj">
+      <Project>{BA216DBD-FE38-3144-8FE1-7907A1D40FC3}</Project>
+      <Name>compile_MatrixBase_isOrthogonal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_isUnitary.vcxproj">
+      <Project>{D858C1D3-9F51-33BA-8852-01D5BA87CEB6}</Project>
+      <Name>compile_MatrixBase_isUnitary</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_isZero.vcxproj">
+      <Project>{E5C20883-9117-3BF1-BED8-12E075D81DA0}</Project>
+      <Name>compile_MatrixBase_isZero</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_leftCols_int.vcxproj">
+      <Project>{715DF2BC-E875-32EB-825D-9C89ADA41166}</Project>
+      <Name>compile_MatrixBase_leftCols_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_noalias.vcxproj">
+      <Project>{702FBA90-A5C3-3BCF-820B-695F26C2276C}</Project>
+      <Name>compile_MatrixBase_noalias</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_ones.vcxproj">
+      <Project>{C6F641FE-82D4-3F7B-9778-65FF8EAFD939}</Project>
+      <Name>compile_MatrixBase_ones</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_ones_int.vcxproj">
+      <Project>{F52B7DC4-882E-3119-BC5C-138AE86C7638}</Project>
+      <Name>compile_MatrixBase_ones_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_ones_int_int.vcxproj">
+      <Project>{88391C7E-A9FE-3D2C-A959-44BECB1E2C54}</Project>
+      <Name>compile_MatrixBase_ones_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_operatorNorm.vcxproj">
+      <Project>{8381FCE2-EA36-38BB-8499-CEC72BDA8CD4}</Project>
+      <Name>compile_MatrixBase_operatorNorm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_prod.vcxproj">
+      <Project>{439DD268-898C-32E9-A1A2-2E3F11ED2827}</Project>
+      <Name>compile_MatrixBase_prod</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_random.vcxproj">
+      <Project>{36FE1FF3-1700-3DAC-B5B7-759A924E95F7}</Project>
+      <Name>compile_MatrixBase_random</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_random_int.vcxproj">
+      <Project>{29CE0C08-3CA6-34AD-AB53-87084B353BA7}</Project>
+      <Name>compile_MatrixBase_random_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_random_int_int.vcxproj">
+      <Project>{0217A990-6674-32C8-8F15-F4C3A2C65F51}</Project>
+      <Name>compile_MatrixBase_random_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_replicate.vcxproj">
+      <Project>{9B7C73A6-32C3-334A-855D-BA0F501D8950}</Project>
+      <Name>compile_MatrixBase_replicate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_replicate_int_int.vcxproj">
+      <Project>{52F8674C-4BC5-3680-BD3F-E446E9175629}</Project>
+      <Name>compile_MatrixBase_replicate_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_reverse.vcxproj">
+      <Project>{6A4A4D9F-9F1A-3CD8-844E-3ACC390B1ABA}</Project>
+      <Name>compile_MatrixBase_reverse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_rightCols_int.vcxproj">
+      <Project>{CB691A56-5EBC-3932-BE06-D05FE8E91362}</Project>
+      <Name>compile_MatrixBase_rightCols_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_row.vcxproj">
+      <Project>{5B33C9F5-D22D-3CC4-A8C0-57819E71029C}</Project>
+      <Name>compile_MatrixBase_row</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_rowwise.vcxproj">
+      <Project>{B1CEDA4A-6CE6-3264-8EA0-D6C51A4AA50A}</Project>
+      <Name>compile_MatrixBase_rowwise</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_segment_int_int.vcxproj">
+      <Project>{020E7DF0-FB1F-3F1B-AD73-DB7380F85B84}</Project>
+      <Name>compile_MatrixBase_segment_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_select.vcxproj">
+      <Project>{BC377B96-61FB-33D9-B6D7-CE4FC15BC197}</Project>
+      <Name>compile_MatrixBase_select</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_selfadjointView.vcxproj">
+      <Project>{257ACBD5-785D-3071-BB52-02684B3D4B8A}</Project>
+      <Name>compile_MatrixBase_selfadjointView</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_set.vcxproj">
+      <Project>{B50562DF-56C8-384C-AD77-57304F1E9A11}</Project>
+      <Name>compile_MatrixBase_set</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_setIdentity.vcxproj">
+      <Project>{16EDB03A-6BDC-3A78-A805-9726813C5C65}</Project>
+      <Name>compile_MatrixBase_setIdentity</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_setOnes.vcxproj">
+      <Project>{AD44127E-B8DE-3371-9506-518D3E96A7BC}</Project>
+      <Name>compile_MatrixBase_setOnes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_setRandom.vcxproj">
+      <Project>{A2BFD5A2-5F21-35A8-B384-67AFA6C86F66}</Project>
+      <Name>compile_MatrixBase_setRandom</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_setZero.vcxproj">
+      <Project>{93FD6220-88E1-3A23-918F-750372521CAA}</Project>
+      <Name>compile_MatrixBase_setZero</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_start_int.vcxproj">
+      <Project>{84C7D3C2-0201-3F83-9D38-7AF16F0FB63E}</Project>
+      <Name>compile_MatrixBase_start_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_bottomRows.vcxproj">
+      <Project>{4919963E-A2A4-30FF-B79B-DC33CB9AB73F}</Project>
+      <Name>compile_MatrixBase_template_int_bottomRows</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_end.vcxproj">
+      <Project>{2F969379-8026-3EE3-965F-D5693D92D06E}</Project>
+      <Name>compile_MatrixBase_template_int_end</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_int_block_int_int_int_int.vcxproj">
+      <Project>{7DEC27D2-22B0-348B-AD08-ED946DC100FF}</Project>
+      <Name>compile_MatrixBase_template_int_int_block_int_int_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_int_bottomLeftCorner.vcxproj">
+      <Project>{16DEABA6-8D51-3E2E-83DF-D321F958F9C2}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomLeftCorner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_int_bottomLeftCorner_int_int.vcxproj">
+      <Project>{CCA9528D-554F-394F-AEFE-F7C5D9D22FA4}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomLeftCorner_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_int_bottomRightCorner.vcxproj">
+      <Project>{68CB6C61-4B5C-35F2-A46D-6D405148966D}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomRightCorner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_int_bottomRightCorner_int_int.vcxproj">
+      <Project>{ABA3DD02-AB33-36FC-A57B-B91F941A3C7F}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomRightCorner_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_int_topLeftCorner.vcxproj">
+      <Project>{7B29962E-CD3D-3437-B047-A02C711B1FD7}</Project>
+      <Name>compile_MatrixBase_template_int_int_topLeftCorner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_int_topLeftCorner_int_int.vcxproj">
+      <Project>{A16596ED-E20F-376B-A20E-9BFB5FDD9A80}</Project>
+      <Name>compile_MatrixBase_template_int_int_topLeftCorner_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_int_topRightCorner.vcxproj">
+      <Project>{C4404BA2-9017-371A-AA99-C216246DCAEE}</Project>
+      <Name>compile_MatrixBase_template_int_int_topRightCorner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_int_topRightCorner_int_int.vcxproj">
+      <Project>{7E45EB71-3F55-3099-9853-8886C833FAA4}</Project>
+      <Name>compile_MatrixBase_template_int_int_topRightCorner_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_leftCols.vcxproj">
+      <Project>{A2699F46-D065-3153-A9E4-042A11D603D5}</Project>
+      <Name>compile_MatrixBase_template_int_leftCols</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_rightCols.vcxproj">
+      <Project>{38E3BE19-C64F-399A-B6AA-3543FBEB9BE0}</Project>
+      <Name>compile_MatrixBase_template_int_rightCols</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_segment.vcxproj">
+      <Project>{ED8120E0-97B6-37CF-8CC7-7519598D071A}</Project>
+      <Name>compile_MatrixBase_template_int_segment</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_start.vcxproj">
+      <Project>{157C41E0-E036-306E-B726-E5604EB825A3}</Project>
+      <Name>compile_MatrixBase_template_int_start</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_template_int_topRows.vcxproj">
+      <Project>{930E00ED-B347-389F-838A-7152934F8E58}</Project>
+      <Name>compile_MatrixBase_template_int_topRows</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_topLeftCorner_int_int.vcxproj">
+      <Project>{40A01A0E-1677-3CAE-B87D-9C123DB349B2}</Project>
+      <Name>compile_MatrixBase_topLeftCorner_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_topRightCorner_int_int.vcxproj">
+      <Project>{BC8CA647-1E80-319D-BD01-B6E56CA2D245}</Project>
+      <Name>compile_MatrixBase_topRightCorner_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_topRows_int.vcxproj">
+      <Project>{FDF4FC7E-52FE-38DF-A12F-7A2F2627BC32}</Project>
+      <Name>compile_MatrixBase_topRows_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_transpose.vcxproj">
+      <Project>{89FD2673-504F-3542-86B0-CE9263359467}</Project>
+      <Name>compile_MatrixBase_transpose</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_triangularView.vcxproj">
+      <Project>{1ADD7CA0-F9F7-3C4A-8AD4-68C3F900248B}</Project>
+      <Name>compile_MatrixBase_triangularView</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_zero.vcxproj">
+      <Project>{59D561F4-49C3-3B04-8C5E-2AE88D6767B4}</Project>
+      <Name>compile_MatrixBase_zero</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_zero_int.vcxproj">
+      <Project>{8A026465-4ACC-3FC2-AE88-9A19FCDCA5DE}</Project>
+      <Name>compile_MatrixBase_zero_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_MatrixBase_zero_int_int.vcxproj">
+      <Project>{C43A4C4A-D937-39A3-AF63-BBB6A363A5B5}</Project>
+      <Name>compile_MatrixBase_zero_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_Map_stride.vcxproj">
+      <Project>{AF1CBBE4-C41D-3796-8CCD-94957DEF8831}</Project>
+      <Name>compile_Matrix_Map_stride</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_resize_NoChange_int.vcxproj">
+      <Project>{729039B6-7C08-37ED-A4DB-49C2145E263F}</Project>
+      <Name>compile_Matrix_resize_NoChange_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_resize_int.vcxproj">
+      <Project>{81833300-798F-3BFB-B736-994F11587A2E}</Project>
+      <Name>compile_Matrix_resize_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_resize_int_NoChange.vcxproj">
+      <Project>{453917C1-0536-3189-8056-542099C2AF39}</Project>
+      <Name>compile_Matrix_resize_int_NoChange</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_resize_int_int.vcxproj">
+      <Project>{EE5E2167-8C08-3019-A397-C2BCA4FB2FF6}</Project>
+      <Name>compile_Matrix_resize_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_setConstant_int.vcxproj">
+      <Project>{99C8D957-B3C3-387E-8B0A-F5224606C1AC}</Project>
+      <Name>compile_Matrix_setConstant_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_setConstant_int_int.vcxproj">
+      <Project>{9C625074-D637-3CF0-87C7-3C7F3DB693E2}</Project>
+      <Name>compile_Matrix_setConstant_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_setIdentity_int_int.vcxproj">
+      <Project>{7AC8BE31-4085-386E-988D-01F92DAC1352}</Project>
+      <Name>compile_Matrix_setIdentity_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_setOnes_int.vcxproj">
+      <Project>{19986292-3434-3364-8D58-812B58EE8901}</Project>
+      <Name>compile_Matrix_setOnes_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_setOnes_int_int.vcxproj">
+      <Project>{D77F4367-FE1A-36BA-B32C-0B7C7A4C6970}</Project>
+      <Name>compile_Matrix_setOnes_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_setRandom_int.vcxproj">
+      <Project>{724C9AF7-1EBF-3B66-92E5-CC0EA8B87F49}</Project>
+      <Name>compile_Matrix_setRandom_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_setRandom_int_int.vcxproj">
+      <Project>{08D1F265-0E3B-371A-B702-F4BCBD5AA79C}</Project>
+      <Name>compile_Matrix_setRandom_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_setZero_int.vcxproj">
+      <Project>{87B99D9B-71C7-3480-9134-E4B4B75D1C0F}</Project>
+      <Name>compile_Matrix_setZero_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Matrix_setZero_int_int.vcxproj">
+      <Project>{071D584F-AE9B-365F-930D-78280E118C41}</Project>
+      <Name>compile_Matrix_setZero_int_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_PartialPivLU_solve.vcxproj">
+      <Project>{3F0EB978-EFFD-3E72-B25F-22C0E1895FEC}</Project>
+      <Name>compile_PartialPivLU_solve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_PartialRedux_count.vcxproj">
+      <Project>{28077DD9-735D-3016-9236-DC114E9ED927}</Project>
+      <Name>compile_PartialRedux_count</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_PartialRedux_maxCoeff.vcxproj">
+      <Project>{18E0AD8D-9385-3567-8929-1BC8C90BA637}</Project>
+      <Name>compile_PartialRedux_maxCoeff</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_PartialRedux_minCoeff.vcxproj">
+      <Project>{560706B0-C46A-36BA-849D-6144891AA2B8}</Project>
+      <Name>compile_PartialRedux_minCoeff</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_PartialRedux_norm.vcxproj">
+      <Project>{7FC0C7C8-EFA9-3425-8FAD-FC165B9D6DE6}</Project>
+      <Name>compile_PartialRedux_norm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_PartialRedux_prod.vcxproj">
+      <Project>{8FC935AC-011A-3BC5-B6A2-7E8244074D14}</Project>
+      <Name>compile_PartialRedux_prod</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_PartialRedux_squaredNorm.vcxproj">
+      <Project>{3DA6187F-A98E-3930-A65D-604EBA735F25}</Project>
+      <Name>compile_PartialRedux_squaredNorm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_PartialRedux_sum.vcxproj">
+      <Project>{FC4667FB-6A13-3B4A-AD39-26E6C640702F}</Project>
+      <Name>compile_PartialRedux_sum</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_RealQZ_compute.vcxproj">
+      <Project>{5C4C7754-FB29-3F61-8E12-A7A1ED177438}</Project>
+      <Name>compile_RealQZ_compute</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_RealSchur_RealSchur_MatrixType.vcxproj">
+      <Project>{0E7B8D64-5A3A-3395-A7B5-BA518F864E70}</Project>
+      <Name>compile_RealSchur_RealSchur_MatrixType</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_RealSchur_compute.vcxproj">
+      <Project>{03428117-D93E-3B05-AB35-EA118D4C64F4}</Project>
+      <Name>compile_RealSchur_compute</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.vcxproj">
+      <Project>{3D01C18D-2C4D-3E83-88D1-9B116DFB9D00}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.vcxproj">
+      <Project>{8C94A0E1-029F-36B4-ACB9-17D8266B7A28}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.vcxproj">
+      <Project>{2C94D132-2255-3314-BD17-8AACF79A34EB}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SelfAdjointEigenSolver_compute_MatrixType.vcxproj">
+      <Project>{EC90D186-BD2D-3ADC-947D-7096EA55C75B}</Project>
+      <Name>compile_SelfAdjointEigenSolver_compute_MatrixType</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SelfAdjointEigenSolver_compute_MatrixType2.vcxproj">
+      <Project>{52EFE3D8-442F-396D-B5A0-4250CCCBE6A3}</Project>
+      <Name>compile_SelfAdjointEigenSolver_compute_MatrixType2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SelfAdjointEigenSolver_eigenvalues.vcxproj">
+      <Project>{03475629-9023-39F8-863C-161D130679ED}</Project>
+      <Name>compile_SelfAdjointEigenSolver_eigenvalues</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SelfAdjointEigenSolver_eigenvectors.vcxproj">
+      <Project>{1C8F6326-AEEF-335E-A3ED-2154CE09830A}</Project>
+      <Name>compile_SelfAdjointEigenSolver_eigenvectors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SelfAdjointEigenSolver_operatorInverseSqrt.vcxproj">
+      <Project>{6E307B60-537C-3D84-9778-4EF3C801E215}</Project>
+      <Name>compile_SelfAdjointEigenSolver_operatorInverseSqrt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SelfAdjointEigenSolver_operatorSqrt.vcxproj">
+      <Project>{09E1DAFB-F443-3FB0-A226-02779EF6B8F3}</Project>
+      <Name>compile_SelfAdjointEigenSolver_operatorSqrt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SelfAdjointView_eigenvalues.vcxproj">
+      <Project>{42B4F659-9DFC-3D38-B9A4-9A20F7BFFAF5}</Project>
+      <Name>compile_SelfAdjointView_eigenvalues</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SelfAdjointView_operatorNorm.vcxproj">
+      <Project>{7B459FAD-743D-31A8-9FDD-50A72C6F898B}</Project>
+      <Name>compile_SelfAdjointView_operatorNorm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_SparseMatrix_coeffs.vcxproj">
+      <Project>{AD774A6F-A0FC-3352-B44A-0025F4102ABF}</Project>
+      <Name>compile_SparseMatrix_coeffs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_TopicAliasing_block.vcxproj">
+      <Project>{4E03F540-FAED-36A4-9BEF-DE3B8028558E}</Project>
+      <Name>compile_TopicAliasing_block</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_TopicAliasing_block_correct.vcxproj">
+      <Project>{194F011B-2E59-3C62-B6AD-D44C263C14D3}</Project>
+      <Name>compile_TopicAliasing_block_correct</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_TopicAliasing_cwise.vcxproj">
+      <Project>{414DCD0C-9C9C-30C8-87A1-89999435A1D2}</Project>
+      <Name>compile_TopicAliasing_cwise</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_TopicAliasing_mult1.vcxproj">
+      <Project>{36C88C74-C37A-30A4-BECC-FDE501DAB6A4}</Project>
+      <Name>compile_TopicAliasing_mult1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_TopicAliasing_mult2.vcxproj">
+      <Project>{339DC29C-D867-3E1A-A6A6-48B97029137D}</Project>
+      <Name>compile_TopicAliasing_mult2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_TopicAliasing_mult3.vcxproj">
+      <Project>{82F5600E-3E74-3FAE-9900-68ED9D50C448}</Project>
+      <Name>compile_TopicAliasing_mult3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_TopicAliasing_mult4.vcxproj">
+      <Project>{12BB4543-394B-36E8-A1E8-06F1BF9A65DE}</Project>
+      <Name>compile_TopicAliasing_mult4</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_TopicAliasing_mult5.vcxproj">
+      <Project>{7A6D92C2-777D-3B87-B3C0-4C5950E9B46B}</Project>
+      <Name>compile_TopicAliasing_mult5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_TopicStorageOrders_example.vcxproj">
+      <Project>{BE67EA99-07CE-3C53-ADB3-BF45C4624815}</Project>
+      <Name>compile_TopicStorageOrders_example</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Triangular_solve.vcxproj">
+      <Project>{52704E3C-031F-3A07-8522-9439D3AB9A5F}</Project>
+      <Name>compile_Triangular_solve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tridiagonalization_Tridiagonalization_MatrixType.vcxproj">
+      <Project>{63515CC5-2E8D-3EE6-9F76-20F805BC3FE0}</Project>
+      <Name>compile_Tridiagonalization_Tridiagonalization_MatrixType</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tridiagonalization_compute.vcxproj">
+      <Project>{A846B42F-9E21-3835-B178-60CE841A7AA7}</Project>
+      <Name>compile_Tridiagonalization_compute</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tridiagonalization_decomposeInPlace.vcxproj">
+      <Project>{CB6130E6-1D89-3D12-AFE7-C1C19D7101DD}</Project>
+      <Name>compile_Tridiagonalization_decomposeInPlace</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tridiagonalization_diagonal.vcxproj">
+      <Project>{9AE90C25-2931-3136-A766-8A35B99F6B6E}</Project>
+      <Name>compile_Tridiagonalization_diagonal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tridiagonalization_householderCoefficients.vcxproj">
+      <Project>{4B93B661-7559-34F5-B9B8-694C7E3D0533}</Project>
+      <Name>compile_Tridiagonalization_householderCoefficients</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tridiagonalization_packedMatrix.vcxproj">
+      <Project>{69389606-B066-3340-8165-0F11E9C9D1E1}</Project>
+      <Name>compile_Tridiagonalization_packedMatrix</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_AdvancedInitialization_Block.vcxproj">
+      <Project>{16E14236-5778-31EB-9E2B-82FAFE7FB0D2}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Block</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_AdvancedInitialization_CommaTemporary.vcxproj">
+      <Project>{F88DCEDF-C50A-3C34-98CB-8B60A62B5442}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_CommaTemporary</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_AdvancedInitialization_Join.vcxproj">
+      <Project>{344DC3DD-8078-3BED-9EB4-AB7732FEE8CC}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Join</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_AdvancedInitialization_LinSpaced.vcxproj">
+      <Project>{11955C1E-43AF-3067-B460-2985DD04CE79}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_LinSpaced</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_AdvancedInitialization_ThreeWays.vcxproj">
+      <Project>{CBB188F1-7585-3F74-B496-AD1A73D008DB}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_ThreeWays</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_AdvancedInitialization_Zero.vcxproj">
+      <Project>{9E47F1FB-0E12-3576-BE26-31C7F19D6A2E}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Zero</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_Map_rowmajor.vcxproj">
+      <Project>{F0B89169-625F-3BC8-ADCC-333C981A8794}</Project>
+      <Name>compile_Tutorial_Map_rowmajor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_Map_using.vcxproj">
+      <Project>{08C78169-CE99-381C-885F-EECCE842FC64}</Project>
+      <Name>compile_Tutorial_Map_using</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_ReshapeMat2Mat.vcxproj">
+      <Project>{3859DC62-D36E-3EB0-A4B2-E6C90A60F031}</Project>
+      <Name>compile_Tutorial_ReshapeMat2Mat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_ReshapeMat2Vec.vcxproj">
+      <Project>{B2649A47-F865-3E0E-BDA9-A2AA24241CF5}</Project>
+      <Name>compile_Tutorial_ReshapeMat2Vec</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_SlicingCol.vcxproj">
+      <Project>{215BE530-B015-35D1-AB4C-C7C5366A428C}</Project>
+      <Name>compile_Tutorial_SlicingCol</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_SlicingVec.vcxproj">
+      <Project>{A541B02A-D677-37E9-97E1-2F746FA245A2}</Project>
+      <Name>compile_Tutorial_SlicingVec</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_commainit_01.vcxproj">
+      <Project>{7D3D3196-FBC0-33B8-B30E-2D4D9DAA83E8}</Project>
+      <Name>compile_Tutorial_commainit_01</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_commainit_01b.vcxproj">
+      <Project>{6176746D-7560-3176-9605-517823E1631A}</Project>
+      <Name>compile_Tutorial_commainit_01b</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_commainit_02.vcxproj">
+      <Project>{5D0EC084-D7B0-3705-B348-F27D28E9E341}</Project>
+      <Name>compile_Tutorial_commainit_02</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_solve_matrix_inverse.vcxproj">
+      <Project>{7E4B5493-24A0-36F6-ABA1-6FC42AFB7EA4}</Project>
+      <Name>compile_Tutorial_solve_matrix_inverse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_solve_multiple_rhs.vcxproj">
+      <Project>{A33C5B49-72E4-34E1-82B7-FEF7CB052647}</Project>
+      <Name>compile_Tutorial_solve_multiple_rhs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_solve_reuse_decomposition.vcxproj">
+      <Project>{9FCB9FBE-5AB8-3F29-8ADE-34E9A117C82C}</Project>
+      <Name>compile_Tutorial_solve_reuse_decomposition</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_solve_singular.vcxproj">
+      <Project>{5942CC3D-952B-389E-AEC2-D61D808CF5DE}</Project>
+      <Name>compile_Tutorial_solve_singular</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_solve_triangular.vcxproj">
+      <Project>{70FAC37B-DE8A-395E-9A8A-6355F84A4537}</Project>
+      <Name>compile_Tutorial_solve_triangular</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Tutorial_solve_triangular_inplace.vcxproj">
+      <Project>{43708CF6-B409-3F26-B2CD-0576DAA7BA0B}</Project>
+      <Name>compile_Tutorial_solve_triangular_inplace</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_VectorwiseOp_homogeneous.vcxproj">
+      <Project>{4EA36000-535D-36E2-B1BF-1250157C9342}</Project>
+      <Name>compile_VectorwiseOp_homogeneous</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_Vectorwise_reverse.vcxproj">
+      <Project>{11A6924C-A4D2-3459-8826-E27A71CBE002}</Project>
+      <Name>compile_Vectorwise_reverse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_class_FullPivLU.vcxproj">
+      <Project>{01797613-5871-3B2D-8499-3DEFB944A802}</Project>
+      <Name>compile_class_FullPivLU</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_tut_arithmetic_redux_minmax.vcxproj">
+      <Project>{6E126CD9-7215-336E-8DC2-AF2FCD0A9ADA}</Project>
+      <Name>compile_tut_arithmetic_redux_minmax</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_tut_arithmetic_transpose_aliasing.vcxproj">
+      <Project>{7353BE15-47EE-3B6A-AE66-EFF2330731CD}</Project>
+      <Name>compile_tut_arithmetic_transpose_aliasing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_tut_arithmetic_transpose_conjugate.vcxproj">
+      <Project>{632B01DA-AC41-3585-80D6-18BBD4B9EDC1}</Project>
+      <Name>compile_tut_arithmetic_transpose_conjugate</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_tut_arithmetic_transpose_inplace.vcxproj">
+      <Project>{A4F99C82-4865-3B33-8561-24E416DEE658}</Project>
+      <Name>compile_tut_arithmetic_transpose_inplace</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\snippets\compile_tut_matrix_assignment_resizing.vcxproj">
+      <Project>{731E004E-E519-382A-8421-0745E7F173C0}</Project>
+      <Name>compile_tut_matrix_assignment_resizing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

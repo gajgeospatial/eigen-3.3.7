@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{90D25D07-5D57-3E5D-9FE8-AE0179612B8C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>all_examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\eigen-3.3.7\msvc\doc;C:\Development\op3d_active\eigen-3.3.7\doc;C:\Development\op3d_active\eigen-3.3.7;C:\Development\op3d_active\eigen-3.3.7\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\eigen-3.3.7\msvc\doc;C:\Development\op3d_active\eigen-3.3.7\doc;C:\Development\op3d_active\eigen-3.3.7;C:\Development\op3d_active\eigen-3.3.7\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\eigen-3.3.7\msvc\doc;C:\Development\op3d_active\eigen-3.3.7\doc;C:\Development\op3d_active\eigen-3.3.7;C:\Development\op3d_active\eigen-3.3.7\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\eigen-3.3.7\msvc\doc;C:\Development\op3d_active\eigen-3.3.7\doc;C:\Development\op3d_active\eigen-3.3.7;C:\Development\op3d_active\eigen-3.3.7\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\op3d_active\eigen-3.3.7\doc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/op3d_active/eigen-3.3.7/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/eigen-3.3.7 -BC:/Development/op3d_active/eigen-3.3.7/msvc --check-stamp-file C:/Development/op3d_active/eigen-3.3.7/msvc/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/op3d_active/eigen-3.3.7/doc/CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\Doxyfile.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_footer.html.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_header.html.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_layout.xml.in;C:\Development\op3d_active\eigen-3.3.7\unsupported\doc\eigendoxy_layout.xml.in;C:\Development\op3d_active\eigen-3.3.7\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\op3d_active\eigen-3.3.7\msvc\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/op3d_active/eigen-3.3.7/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/eigen-3.3.7 -BC:/Development/op3d_active/eigen-3.3.7/msvc --check-stamp-file C:/Development/op3d_active/eigen-3.3.7/msvc/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/op3d_active/eigen-3.3.7/doc/CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\Doxyfile.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_footer.html.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_header.html.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_layout.xml.in;C:\Development\op3d_active\eigen-3.3.7\unsupported\doc\eigendoxy_layout.xml.in;C:\Development\op3d_active\eigen-3.3.7\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\op3d_active\eigen-3.3.7\msvc\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/op3d_active/eigen-3.3.7/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/eigen-3.3.7 -BC:/Development/op3d_active/eigen-3.3.7/msvc --check-stamp-file C:/Development/op3d_active/eigen-3.3.7/msvc/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/op3d_active/eigen-3.3.7/doc/CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\Doxyfile.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_footer.html.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_header.html.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_layout.xml.in;C:\Development\op3d_active\eigen-3.3.7\unsupported\doc\eigendoxy_layout.xml.in;C:\Development\op3d_active\eigen-3.3.7\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\op3d_active\eigen-3.3.7\msvc\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/op3d_active/eigen-3.3.7/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/eigen-3.3.7 -BC:/Development/op3d_active/eigen-3.3.7/msvc --check-stamp-file C:/Development/op3d_active/eigen-3.3.7/msvc/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/op3d_active/eigen-3.3.7/doc/CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\CMakeLists.txt;C:\Development\op3d_active\eigen-3.3.7\doc\Doxyfile.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_footer.html.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_header.html.in;C:\Development\op3d_active\eigen-3.3.7\doc\eigendoxy_layout.xml.in;C:\Development\op3d_active\eigen-3.3.7\unsupported\doc\eigendoxy_layout.xml.in;C:\Development\op3d_active\eigen-3.3.7\doc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\op3d_active\eigen-3.3.7\msvc\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\ZERO_CHECK.vcxproj">
+      <Project>{84938EA4-3E30-31B7-83CB-4991992BCFD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\CustomizingEigen_Inheritance.vcxproj">
+      <Project>{59A2A569-14FC-3612-A72D-D6DE11B45BE7}</Project>
+      <Name>CustomizingEigen_Inheritance</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Cwise_erf.vcxproj">
+      <Project>{A19BBBE2-2F05-3B8F-B299-07C103E5ED4E}</Project>
+      <Name>Cwise_erf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Cwise_erfc.vcxproj">
+      <Project>{DE9A31BE-E8F1-3BE4-B19B-7B080D090536}</Project>
+      <Name>Cwise_erfc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Cwise_lgamma.vcxproj">
+      <Project>{27330233-82D3-36B9-87FC-BF285D947F31}</Project>
+      <Name>Cwise_lgamma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\DenseBase_middleCols_int.vcxproj">
+      <Project>{EB4AA49E-6F95-3C1F-929E-84734295F4DA}</Project>
+      <Name>DenseBase_middleCols_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\DenseBase_middleRows_int.vcxproj">
+      <Project>{E6A5E8AE-4D00-3349-94B2-3745BCF4E52B}</Project>
+      <Name>DenseBase_middleRows_int</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\DenseBase_template_int_middleCols.vcxproj">
+      <Project>{27061866-CEF3-3112-9C20-512BF034C012}</Project>
+      <Name>DenseBase_template_int_middleCols</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\DenseBase_template_int_middleRows.vcxproj">
+      <Project>{79D5A3C7-F8A4-34A6-B9BF-6785102FC014}</Project>
+      <Name>DenseBase_template_int_middleRows</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\QuickStart_example.vcxproj">
+      <Project>{05D80B18-9092-363C-A28E-EA8A1F7D845C}</Project>
+      <Name>QuickStart_example</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\QuickStart_example2_dynamic.vcxproj">
+      <Project>{C441687A-E0CB-31D3-B21C-90AE41A1F4F8}</Project>
+      <Name>QuickStart_example2_dynamic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\QuickStart_example2_fixed.vcxproj">
+      <Project>{573AA65F-8D04-3080-AA59-FF61F66AC649}</Project>
+      <Name>QuickStart_example2_fixed</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TemplateKeyword_flexible.vcxproj">
+      <Project>{1D55358D-ECA8-3533-AC95-3D21E967D7C2}</Project>
+      <Name>TemplateKeyword_flexible</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TemplateKeyword_simple.vcxproj">
+      <Project>{6B422784-AB8F-38AB-954B-1A530B99991E}</Project>
+      <Name>TemplateKeyword_simple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TutorialInplaceLU.vcxproj">
+      <Project>{B3F42E75-6D7A-3800-A10A-2AEF6257D35D}</Project>
+      <Name>TutorialInplaceLU</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TutorialLinAlgComputeTwice.vcxproj">
+      <Project>{41AFB1BF-59A2-3275-B4DC-68D2CBD0F851}</Project>
+      <Name>TutorialLinAlgComputeTwice</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TutorialLinAlgExComputeSolveError.vcxproj">
+      <Project>{29B0265D-F6FB-3CBB-958E-2649838452BE}</Project>
+      <Name>TutorialLinAlgExComputeSolveError</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TutorialLinAlgExSolveColPivHouseholderQR.vcxproj">
+      <Project>{39813200-A3F8-3F0E-A9D9-CDA3FD590B4C}</Project>
+      <Name>TutorialLinAlgExSolveColPivHouseholderQR</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TutorialLinAlgExSolveLDLT.vcxproj">
+      <Project>{0911ADBA-F66C-3558-A20D-454DD43CB748}</Project>
+      <Name>TutorialLinAlgExSolveLDLT</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TutorialLinAlgInverseDeterminant.vcxproj">
+      <Project>{7D11D331-54A6-38F1-8391-C054EBB2FF81}</Project>
+      <Name>TutorialLinAlgInverseDeterminant</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TutorialLinAlgRankRevealing.vcxproj">
+      <Project>{47BB20C9-DD88-39EB-8557-426B9DE7EB34}</Project>
+      <Name>TutorialLinAlgRankRevealing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TutorialLinAlgSVDSolve.vcxproj">
+      <Project>{BAFCB63B-2F52-3F74-8EE5-46887EE52AB4}</Project>
+      <Name>TutorialLinAlgSVDSolve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TutorialLinAlgSelfAdjointEigenSolver.vcxproj">
+      <Project>{D341D6E0-3DC5-367E-AB5F-86F7EE83B8CC}</Project>
+      <Name>TutorialLinAlgSelfAdjointEigenSolver</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\TutorialLinAlgSetThreshold.vcxproj">
+      <Project>{1F7D75DD-286A-36DB-8EAD-FA9427174BC9}</Project>
+      <Name>TutorialLinAlgSetThreshold</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ArrayClass_accessors.vcxproj">
+      <Project>{8690AF9B-8ABC-341F-B4C6-20E6542A84E0}</Project>
+      <Name>Tutorial_ArrayClass_accessors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ArrayClass_addition.vcxproj">
+      <Project>{831A1D5F-EA22-3B3F-8057-2A8619DAFBD6}</Project>
+      <Name>Tutorial_ArrayClass_addition</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ArrayClass_cwise_other.vcxproj">
+      <Project>{9E0A945B-C2B3-3AC7-A30F-4A7EA72677CD}</Project>
+      <Name>Tutorial_ArrayClass_cwise_other</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ArrayClass_interop.vcxproj">
+      <Project>{D954DD07-C387-3046-AB18-0E3A57C6DCE4}</Project>
+      <Name>Tutorial_ArrayClass_interop</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ArrayClass_interop_matrix.vcxproj">
+      <Project>{4025E6CA-5F56-303D-9A24-59EE0E8BBE37}</Project>
+      <Name>Tutorial_ArrayClass_interop_matrix</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ArrayClass_mult.vcxproj">
+      <Project>{EBCBC11C-323B-381E-A838-C54CC9E4B805}</Project>
+      <Name>Tutorial_ArrayClass_mult</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_BlockOperations_block_assignment.vcxproj">
+      <Project>{C61123C7-54F8-3B4B-8F73-6239895F8345}</Project>
+      <Name>Tutorial_BlockOperations_block_assignment</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_BlockOperations_colrow.vcxproj">
+      <Project>{394DD56D-516F-3A29-B0E7-4D43899BB9A7}</Project>
+      <Name>Tutorial_BlockOperations_colrow</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_BlockOperations_corner.vcxproj">
+      <Project>{279A493B-6C6A-35BB-A65D-56FDDFD81C45}</Project>
+      <Name>Tutorial_BlockOperations_corner</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_BlockOperations_print_block.vcxproj">
+      <Project>{547EE348-9AD4-3CDC-81BD-191FCEE91800}</Project>
+      <Name>Tutorial_BlockOperations_print_block</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_BlockOperations_vector.vcxproj">
+      <Project>{D067B317-CD9D-3E49-A171-5BC6209532F8}</Project>
+      <Name>Tutorial_BlockOperations_vector</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_PartialLU_solve.vcxproj">
+      <Project>{948BFC97-77C6-3669-8AAA-DD9D02AEF7E9}</Project>
+      <Name>Tutorial_PartialLU_solve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.vcxproj">
+      <Project>{700BCE7B-7991-3285-BE30-30C4370AA92D}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.vcxproj">
+      <Project>{FC8F36E4-7C0A-3FE2-9229-B22463BA7F4C}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.vcxproj">
+      <Project>{E555CC98-2037-3470-A869-8181160A10A2}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_colwise.vcxproj">
+      <Project>{713EC765-272B-3577-A150-F465F1818809}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_colwise</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_maxnorm.vcxproj">
+      <Project>{1A785460-B2AD-3927-8A4D-556549F94DC0}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_maxnorm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.vcxproj">
+      <Project>{25EF56E8-8A4D-392B-A576-E908DBCAC027}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_bool</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.vcxproj">
+      <Project>{521B1679-46F5-30CA-8A34-7865E10544A5}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_norm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm.vcxproj">
+      <Project>{01FBCB6B-F543-30D2-9A45-D282E88C964E}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_rowwise.vcxproj">
+      <Project>{AF04C8A7-D6F9-3937-867B-C971B468B2A3}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_rowwise</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_visitors.vcxproj">
+      <Project>{A576D793-2821-3B7D-8F10-D5EBC636513D}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_visitors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_simple_example_dynamic_size.vcxproj">
+      <Project>{467CA410-0ACB-3CD6-B9F5-E7F7D77C24C6}</Project>
+      <Name>Tutorial_simple_example_dynamic_size</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\Tutorial_simple_example_fixed_size.vcxproj">
+      <Project>{C04F0005-EE36-3FF0-B2E8-8E134B2B6F1D}</Project>
+      <Name>Tutorial_simple_example_fixed_size</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\class_Block.vcxproj">
+      <Project>{C22D7FEB-8F03-37F7-812B-7C1F84B906A3}</Project>
+      <Name>class_Block</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\class_CwiseBinaryOp.vcxproj">
+      <Project>{977B5CD8-EDA7-3771-A8AE-C9962C654939}</Project>
+      <Name>class_CwiseBinaryOp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\class_CwiseUnaryOp.vcxproj">
+      <Project>{6D0ACAD1-5ECD-3322-AB55-803B772C3F98}</Project>
+      <Name>class_CwiseUnaryOp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\class_CwiseUnaryOp_ptrfun.vcxproj">
+      <Project>{4FA32768-36B0-389A-82F1-B088B42F8405}</Project>
+      <Name>class_CwiseUnaryOp_ptrfun</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\class_FixedBlock.vcxproj">
+      <Project>{6CC3953A-27C0-323D-841D-F82CD0FEB438}</Project>
+      <Name>class_FixedBlock</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\class_FixedVectorBlock.vcxproj">
+      <Project>{E68B3D06-E122-364A-AD2C-57B07D4A085B}</Project>
+      <Name>class_FixedVectorBlock</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\class_VectorBlock.vcxproj">
+      <Project>{484C7D10-3053-314E-9400-6705FA00E742}</Project>
+      <Name>class_VectorBlock</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\function_taking_eigenbase.vcxproj">
+      <Project>{2829033A-C811-31E4-9E07-03DEFF469E6D}</Project>
+      <Name>function_taking_eigenbase</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\function_taking_ref.vcxproj">
+      <Project>{B92188E5-AC33-3911-B952-6F0936CD1BDB}</Project>
+      <Name>function_taking_ref</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\make_circulant.vcxproj">
+      <Project>{88665070-2862-3CA5-9C54-FD1828EFDEC4}</Project>
+      <Name>make_circulant</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\make_circulant2.vcxproj">
+      <Project>{B685440C-D5BA-3246-B45A-F4F4E1EEEEBC}</Project>
+      <Name>make_circulant2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\matrixfree_cg.vcxproj">
+      <Project>{44358AEB-9670-3459-A27A-5A327B182C32}</Project>
+      <Name>matrixfree_cg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\nullary_indexing.vcxproj">
+      <Project>{03FEBF46-FF37-3EC2-AA61-37025D39BEB9}</Project>
+      <Name>nullary_indexing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\special_examples\random_cpp11.vcxproj">
+      <Project>{CCC4BDC2-B6B4-309E-9AF4-1429B8245F73}</Project>
+      <Name>random_cpp11</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\tut_arithmetic_add_sub.vcxproj">
+      <Project>{B8E789BD-8423-3223-9358-45245F686151}</Project>
+      <Name>tut_arithmetic_add_sub</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\tut_arithmetic_dot_cross.vcxproj">
+      <Project>{D2315EA4-9821-3AD4-B778-7EB8102DF341}</Project>
+      <Name>tut_arithmetic_dot_cross</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\tut_arithmetic_matrix_mul.vcxproj">
+      <Project>{398409B0-923C-3987-9B9E-5E09C3040933}</Project>
+      <Name>tut_arithmetic_matrix_mul</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\tut_arithmetic_redux_basic.vcxproj">
+      <Project>{7CD60DF4-ADCD-3879-832C-20F4716D0684}</Project>
+      <Name>tut_arithmetic_redux_basic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\tut_arithmetic_scalar_mul_div.vcxproj">
+      <Project>{81D4C141-8C19-34FA-86F3-F6DA0F1494ED}</Project>
+      <Name>tut_arithmetic_scalar_mul_div</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\tut_matrix_coefficient_accessors.vcxproj">
+      <Project>{C020ECD5-5CFD-3FE6-8BA9-ED453B4F7A09}</Project>
+      <Name>tut_matrix_coefficient_accessors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\tut_matrix_resize.vcxproj">
+      <Project>{4B98D8A6-59B7-360B-A013-1A2F4244AC0D}</Project>
+      <Name>tut_matrix_resize</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\eigen-3.3.7\msvc\doc\examples\tut_matrix_resize_fixed_size.vcxproj">
+      <Project>{702EF27D-A115-3313-B367-9317A5799E68}</Project>
+      <Name>tut_matrix_resize_fixed_size</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
